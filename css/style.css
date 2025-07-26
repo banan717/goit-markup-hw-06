@@ -25,6 +25,18 @@ html, body{
     background-color:#2e2f42;
 }
 
+.section-three{
+    background-color:#F4F4FD;
+}
+
+.title-sectionthree{
+     font-size: 36px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
 
 .title-hone{
     font-weight: bold;
@@ -41,12 +53,31 @@ h2{
     letter-spacing: 0.02em;
 }
 
-.titli-list-hthree{
+.titli-list-sectiontwo-hthree{
     font-weight: medium;
     font-size: 20px;
     letter-spacing: 0.02em;
     font-weight: 500;
     color: #2e2f42;
+}
+
+.titli-list-sectionthree-hthree{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+.list-sectionthree{
+    background-color: #FFFFFF;
+}
+
+.list-p-section-trhee{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
 }
 
 .list-p{
