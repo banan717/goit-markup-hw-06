@@ -21,7 +21,7 @@ html, body{
     color:#2e2f42;
 }
 
-.section-three{
+.section-one{
     background-color:#2e2f42;
 }
 
@@ -37,7 +37,7 @@ h1{
     font-weight: bold;
     font-size: 56px;
     letter-spacing: 0.02em;
-    line-height: 1.07px;
+    line-height: 1.07;
     text-align: center;
     color: #ffffff;
 }
