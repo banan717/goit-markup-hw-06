@@ -25,13 +25,6 @@ html, body{
     background-color:#2e2f42;
 }
 
-h1{
-    font-weight: bold;
-    font-size: 56px;
-    letter-spacing: 0.02em;
-    line-height: 1.07px;
-    text-align: center;
-}
 
 .title-hone{
     font-weight: bold;
@@ -48,13 +41,15 @@ h2{
     letter-spacing: 0.02em;
 }
 
-h3{
+.titli-list-hthree{
     font-weight: medium;
     font-size: 20px;
     letter-spacing: 0.02em;
+    font-weight: 500;
+    color: #2e2f42;
 }
 
-p{
+.list-p{
     font-weight: medium;
     font-size: 16px;
     letter-spacing: 0.02em;
