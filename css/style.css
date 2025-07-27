@@ -21,12 +21,16 @@ html, body{
     color:#2e2f42;
 }
 
+.title-studio-footer{
+    color: #f4f4fd;
+}
+
 .section-one{
     background-color:#2e2f42;
 }
 
 .section-three{
-    background-color:#F4F4FD;
+    color:#F4F4FD;
 }
 
 .title-sectionthree{
@@ -45,6 +49,10 @@ html, body{
     line-height: 1.07;
     text-align: center;
     color: #ffffff;
+}
+
+.footer{
+    background-color: #2e2f42;
 }
 
 h2{
