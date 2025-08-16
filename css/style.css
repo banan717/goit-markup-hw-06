@@ -24,6 +24,7 @@ img{
 }
 
 .header{
+    padding: 24px 0;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -132,6 +133,21 @@ img{
     background-color: #404BBF;
 }
 
+.benefits{
+    padding: 120px 0;
+}
+
+.iteams-benefits{
+    display: flex;
+    gap: 24px;
+}
+
+.iteam-benefits{
+    width: calc((100% - 72px) / 4);
+}
+
+
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -158,6 +174,7 @@ img{
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 24px;
+    margin-top: 8px;
 }
 
 .team{
