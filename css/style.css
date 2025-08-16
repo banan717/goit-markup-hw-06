@@ -146,8 +146,6 @@ img{
     width: calc((100% - 72px) / 4);
 }
 
-
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -167,6 +165,7 @@ img{
     letter-spacing: 0.02em;
     line-height: 1.2;
     color: #2e2f42;
+    margin-top: 8px;
 }
 
 .benefits-text{
@@ -174,10 +173,10 @@ img{
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 24px;
-    margin-top: 8px;
 }
 
 .team{
+    padding: 120px 0;
     background-color: #F4F4FD;
 }
 
@@ -187,11 +186,25 @@ img{
     line-height: 1.11;
     color: #2e2f42;
     text-align: center;
-    text-transform: capitalize
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
-.team-item{
+.items-team{
+    display: flex;
+    gap: 24px;
+}
+
+.item-team{
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+
+}
+
+.image-team{
+    margin-bottom: 32px;
+
 }
 
 .team-name{
@@ -200,6 +213,7 @@ img{
     letter-spacing: 0.02em;
     line-height: 1.2;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-role{
