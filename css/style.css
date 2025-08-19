@@ -24,7 +24,6 @@ img{
 }
 
 .header{
-    padding: 24px 0;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -41,6 +40,7 @@ img{
 .nav-header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo-header{
@@ -73,6 +73,7 @@ img{
     color:#2e2f42;
     text-decoration: none;
     padding: 24px 0;
+    display: block;
 }
 
 .nav-link:hover,
@@ -80,10 +81,13 @@ img{
     color:#404bbf;
 }
 
+.contact-info{
+    margin-left: auto;
+}
+
 .items-address{
     display: flex;
     gap: 40px;
-    padding-left: 332px;
 }
 
 .contact-link{
@@ -92,6 +96,9 @@ img{
     letter-spacing: 0.02em;
     color:#434455;
     text-decoration: none;
+    font-style: normal;
+    display: block;
+    padding: 24px 0;
 }
 
 .contact-link:hover,
@@ -112,6 +119,8 @@ img{
     text-align: center;
     color: #ffffff;
     max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .hero-button{
@@ -129,6 +138,7 @@ img{
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin: 0 auto;
 }
 
 .hero-button:hover,
@@ -249,6 +259,7 @@ img{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    
 }
 
 .portfolio-item{
@@ -259,7 +270,6 @@ img{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .portfolio-title{
