@@ -89,8 +89,7 @@ img{
 }
 
 .nav-link.current::after{
-    content: " ";
-
+    content: "";
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -333,6 +332,21 @@ img{
     padding: 100px 0;
 }
 
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-title-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer-media-container{
+    display: flex;
+}
+
 .logo-footer{
     display: inline-block;
     font-family: "Raleway", sans-serif;
@@ -355,9 +369,4 @@ img{
     letter-spacing: 0.02em;
     line-height: 1.5;
     max-width: 264px;
-}
-
-.media-container{
-    display: flex;
-    
 }
