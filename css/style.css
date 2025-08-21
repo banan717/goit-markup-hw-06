@@ -577,8 +577,8 @@ img{
 
 }
 
-.model-button-icon:hover,
-.model-button-icon:focus{
+.button-icon:hover,
+.button-icon:focus{
     fill: #ffffff;
 }
 
