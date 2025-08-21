@@ -424,6 +424,10 @@ img{
     max-width: 264px;
 }
 
+.footer-media-container{
+    margin-right: 80px;
+}
+
 .title-media{
     font-weight: 500;
     font-size: 16px;
@@ -461,4 +465,18 @@ img{
 
 .footer-icon{
     fill: #f4f4fd;
+}
+
+.footer-email{
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+}
+
+.footer-label{
+    margin-bottom: 16px;
+}
+
+.footer-button{
+    
 }
