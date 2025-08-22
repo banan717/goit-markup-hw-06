@@ -577,9 +577,9 @@ img{
 
 }
 
-.button-icon:hover,
-.button-icon:focus{
-    fill: #ffffff;
+.modal-button:hover .model-button-icon,
+.modal-button:focus .model-button-icon {
+  fill: #ffffff;
 }
 
 .modal-text{
@@ -684,7 +684,7 @@ border-color: #4D5AE5;
     fill: transparent;
 }
 
-.visually-hidden:checked + .modal-form-privacy-span{
+.visually-hidden:checked + .modal-form-privacy-span .modal-form-privacy-span{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
