@@ -509,6 +509,10 @@ img{
     border-radius: 4px;
 }
 
+.footer-icon-email{
+    margin-left: 16px;
+}
+
 .modal-overlay{
     position: fixed;
     top: 0;
@@ -680,7 +684,7 @@ border-color: #4D5AE5;
     fill: transparent;
 }
 
-.visually-hidden:checked .model-form-name-icon{
+#user-privacy:checked + .modal-form-privacy .modal-form-privacy-span{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
