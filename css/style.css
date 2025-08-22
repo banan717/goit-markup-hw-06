@@ -509,10 +509,6 @@ img{
     border-radius: 4px;
 }
 
-.footer-icon{
-    margin-left: 16px; 
-}
-
 .modal-overlay{
     position: fixed;
     top: 0;
@@ -620,7 +616,7 @@ img{
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-name:focus{
+.modal-form-name:focus .model-form-name-icon{
 border-color: #4D5AE5;
 }
 
@@ -684,7 +680,7 @@ border-color: #4D5AE5;
     fill: transparent;
 }
 
-.visually-hidden:checked .modal-form-privacy-span .model-form-name-icon{
+.visually-hidden:checked .model-form-name-icon{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
