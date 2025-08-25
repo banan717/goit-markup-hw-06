@@ -868,6 +868,7 @@ button {
     margin: 0;
     padding-right: 120px;
     padding-left: 156px;
+    padding-bottom: 0;
 }
 
 .logo-footer{
