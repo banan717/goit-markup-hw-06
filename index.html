@@ -35,7 +35,7 @@
           </ul>
         </address>
 
-        <button class="burger-btn" type="button" data-menu-open>
+        <button data-menu-open class="burger-btn" type="button">
           <svg class="burger-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
@@ -44,7 +44,7 @@
 
       <div class="mobile-menu" data-menu>
         <div class="container mobile-menu-container">
-          <button type="button" class="modal-button">
+          <button data-menu-close type="button" class="modal-button">
             <svg class="model-button-icon" width="8" height="8" >
                   <use href="./images/icons.svg#icon-close"></use>
             </svg>
@@ -106,9 +106,9 @@
 
   <main>
     <section class="hero hero-background-image">
-      <div class="container">
+      <div class="container" >
       <h1 class="hero-heading">Effective Solutions for Your Business</h1>
-      <button class="hero-button">Order Service</button>
+      <button data-modal-open class="hero-button">Order Service</button>
       </div>
     </section>
     <section class="benefits">
@@ -522,9 +522,9 @@
       </div>
   </footer>
 
-  <div class="modal-overlay is-open">
+  <div class="modal-overlay" data-modal>
       <div class="modal">
-      <button type="button" class="modal-button">
+      <button data-modal-close type="button" class="modal-button">
         <svg class="model-button-icon" width="8" height="8" >
                   <use href="./images/icons.svg#icon-close"></use>
         </svg>
